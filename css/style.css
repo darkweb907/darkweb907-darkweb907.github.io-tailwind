@@ -1,0 +1,338 @@
+.navbar {
+  z-index: 145;
+  padding: 82px 0;
+}
+
+.navbar li {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.slide {
+  position: relative;
+  bottom: 12rem;
+}
+
+.slide h1 {
+  position: absolute;
+  color: white;
+  z-index: 347;
+  top: 28rem;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.slide .carousel-caption {
+  position: absolute;
+  bottom: 18rem;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  text-align: justify;
+}
+
+.slide .carousel-caption p {
+  font-size: 16px;
+  line-height: 30px;
+  width: 95%;
+  word-spacing: 1px;
+}
+
+.slide .carousel-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.slide .carousel-item img {
+  width: 100%;
+  max-height: 1200px;
+}
+
+.slide .ban {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.lg {
+  margin-top: -4rem;
+}
+
+.lg h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 43px;
+}
+
+.lg h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2a8ae2;
+  line-height: 200%;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.lg p {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.welcome {
+  margin-top: -7rem;
+}
+
+.welcome h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 43px;
+}
+
+.welcome h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2a8ae2;
+  line-height: 200%;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.welcome p {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.tank {
+  margin-top: 30px;
+}
+
+.tank h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.tank .first {
+  position: relative;
+  background-image: url(../img/pexels-javier-aguilera-2626665.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 56vh;
+}
+
+.tank .first .para {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+}
+
+.tank .second {
+  position: relative;
+  background-image: url(../img/maxim-tolchinskiy-crHhZlES310-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 56vh;
+}
+
+.tank .second .para {
+  bottom: 3rem;
+  left: 3rem;
+  position: absolute;
+}
+
+.tank .second h3 {
+  font-size: 20px;
+}
+
+.tank .third {
+  position: relative;
+  background-image: url(../img/dan-kb-UdxJSRD6UNM-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 56vh;
+}
+
+.tank .third .para {
+  bottom: 3rem;
+  left: 3rem;
+  position: absolute;
+}
+
+.tank .fourth {
+  position: relative;
+  background-image: url(../img/pexels-markus-spiske-101980.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  min-height: 56vh;
+}
+
+.tank .fourth .para {
+  bottom: 3rem;
+  left: 3rem;
+  position: absolute;
+}
+
+.car {
+  position: relative;
+  margin-top: 9rem;
+  background-image: url(../img/pexels-kipras-zabeliauskas-5365737.jpg);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-size: cover;
+  min-height: 86vh;
+  background-blend-mode: overlay;
+}
+
+.car h1 {
+  left: 30%;
+  top: 20%;
+  font-weight: 700;
+}
+
+.car .carousel-slide {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+}
+
+.car .carousel-slide p {
+  word-spacing: 1px;
+  font-style: italic;
+  max-width: 75%;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.set {
+  padding: 12px 0px;
+  top: 0;
+  position: relative;
+  min-height: 68vh;
+  background-color: #e7efff;
+}
+
+.set p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #2a8ae2;
+  line-height: 200%;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.set h3 {
+  letter-spacing: 1px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.set .ben {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.set .mado {
+  margin: 60px auto;
+  padding-left: 11rem;
+}
+
+.set .mado input {
+  border-radius: 29px 0 0 29px;
+  margin-bottom: 0;
+  padding: 5px 20px;
+}
+
+.set .mado .task {
+  border-radius: 0 29px 29px 0;
+}
+
+.space {
+  margin-top: 6rem;
+  color: #616161;
+}
+
+.space p {
+  width: 85%;
+  line-height: 30px;
+}
+
+.space a {
+  color: #616161;
+  line-height: 30px;
+}
+
+@media (max-width: 576px) {
+  .slide h1 {
+    font-size: 28px;
+    top: 33rem;
+  }
+  .slide .carousel-item img {
+    height: 110vh;
+  }
+  .tank .first {
+    margin-bottom: 2rem;
+  }
+  .tank .second {
+    margin-bottom: 2rem;
+  }
+  .tank .third {
+    margin-bottom: 2rem;
+  }
+  .tank .fourth {
+    margin-bottom: 2rem;
+  }
+  .car .center-align h1 {
+    left: 4%;
+  }
+  .car .carousel-slide p {
+    word-spacing: 5px;
+    font-style: italic;
+    max-width: 100%;
+    margin: 0 0px;
+    font-size: 17px;
+    line-height: 31px;
+    margin-bottom: 33px;
+    z-index: 100;
+  }
+  .set .mado {
+    padding: 0px;
+  }
+  .set .mado .import {
+    border-radius: 29px 29px 29px 29px;
+    margin-bottom: 2rem;
+  }
+  .set .mado .task {
+    width: 100%;
+    border-radius: 29px 29px 29px 29px;
+    padding: 13px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
